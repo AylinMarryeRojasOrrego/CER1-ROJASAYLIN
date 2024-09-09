@@ -52,3 +52,79 @@
 {
     padding: 30px;
 }
+
+.row-catalogo h1
+{
+    margin-top: 10%;
+    color: #326A4F !important;
+    margin-bottom: 10%;
+}
+
+.formulario h1
+{
+    margin-top: 10%;
+    color: #326A4F !important;
+    margin-bottom: 10%;
+}
+
+#formulario
+{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #CFDEB0;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#formulario h1
+{
+    color: #326A4F;
+    text-align: center;
+
+}
+
+#formulario button
+{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color:floralwhite;
+    font-size: 20px;
+    background-color: #326A4F;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input
+{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus
+{
+    outline: 0;
+
+}
+
+.input-control.success input 
+{
+    border-color: #09c372;
+} 
+
+.input-control.error input
+{
+    border-color: #ff3860;
+}
+
